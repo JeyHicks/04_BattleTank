@@ -36,4 +36,16 @@
     </extensions>
     <highlightIndex>3</highlightIndex>
   </TabHighlightState>
+  <TabHighlightState>
+    <extensions>
+      <string>Source\BattleTank\Private\TankAimingComponent.cpp</string>
+    </extensions>
+    <highlightIndex>1</highlightIndex>
+  </TabHighlightState>
+  <TabHighlightState>
+    <extensions>
+      <string>Source\BattleTank\Public\TankAimingComponent.h</string>
+    </extensions>
+    <highlightIndex>1</highlightIndex>
+  </TabHighlightState>
 </ArrayOfTabHighlightState>

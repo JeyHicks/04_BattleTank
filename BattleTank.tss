@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ArrayOfArrayOfString>
+    <ArrayOfString>
+      <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Public\TankAIController.h</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Private\TankAIController.cpp</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Public\TankPlayerController.h</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Private\TankPlayerController.cpp</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Public\TankAimingComponent.h</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Private\TankAimingComponent.cpp</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Public\Tank.h</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Private\Tank.cpp</string>
+    </ArrayOfString>
+  </ArrayOfArrayOfString>
+</ArrayOfArrayOfArrayOfString>
