@@ -2,42 +2,6 @@
 <ArrayOfTabHighlightState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <TabHighlightState>
     <extensions>
-      <string>Source\BattleTank\Private\TankPlayerController.cpp</string>
-    </extensions>
-    <highlightIndex>4</highlightIndex>
-  </TabHighlightState>
-  <TabHighlightState>
-    <extensions>
-      <string>Source\BattleTank\Public\TankPlayerController.h</string>
-    </extensions>
-    <highlightIndex>4</highlightIndex>
-  </TabHighlightState>
-  <TabHighlightState>
-    <extensions>
-      <string>Source\BattleTank\Public\TankAIController.h</string>
-    </extensions>
-    <highlightIndex>2</highlightIndex>
-  </TabHighlightState>
-  <TabHighlightState>
-    <extensions>
-      <string>Source\BattleTank\Private\TankAIController.cpp</string>
-    </extensions>
-    <highlightIndex>2</highlightIndex>
-  </TabHighlightState>
-  <TabHighlightState>
-    <extensions>
-      <string>Source\BattleTank\Public\Tank.h</string>
-    </extensions>
-    <highlightIndex>3</highlightIndex>
-  </TabHighlightState>
-  <TabHighlightState>
-    <extensions>
-      <string>Source\BattleTank\Private\Tank.cpp</string>
-    </extensions>
-    <highlightIndex>3</highlightIndex>
-  </TabHighlightState>
-  <TabHighlightState>
-    <extensions>
       <string>Source\BattleTank\Private\TankAimingComponent.cpp</string>
     </extensions>
     <highlightIndex>1</highlightIndex>
@@ -47,5 +11,53 @@
       <string>Source\BattleTank\Public\TankAimingComponent.h</string>
     </extensions>
     <highlightIndex>1</highlightIndex>
+  </TabHighlightState>
+  <TabHighlightState>
+    <extensions>
+      <string>Source\BattleTank\Private\Tank.cpp</string>
+    </extensions>
+    <highlightIndex>3</highlightIndex>
+  </TabHighlightState>
+  <TabHighlightState>
+    <extensions>
+      <string>Source\BattleTank\Public\Tank.h</string>
+    </extensions>
+    <highlightIndex>3</highlightIndex>
+  </TabHighlightState>
+  <TabHighlightState>
+    <extensions>
+      <string>Source\BattleTank\Private\TankAIController.cpp</string>
+    </extensions>
+    <highlightIndex>2</highlightIndex>
+  </TabHighlightState>
+  <TabHighlightState>
+    <extensions>
+      <string>Source\BattleTank\Public\TankAIController.h</string>
+    </extensions>
+    <highlightIndex>2</highlightIndex>
+  </TabHighlightState>
+  <TabHighlightState>
+    <extensions>
+      <string>Source\BattleTank\Public\TankPlayerController.h</string>
+    </extensions>
+    <highlightIndex>4</highlightIndex>
+  </TabHighlightState>
+  <TabHighlightState>
+    <extensions>
+      <string>Source\BattleTank\Private\TankPlayerController.cpp</string>
+    </extensions>
+    <highlightIndex>4</highlightIndex>
+  </TabHighlightState>
+  <TabHighlightState>
+    <extensions>
+      <string>Source\BattleTank\Public\TankBarrel.h</string>
+    </extensions>
+    <highlightIndex>5</highlightIndex>
+  </TabHighlightState>
+  <TabHighlightState>
+    <extensions>
+      <string>Source\BattleTank\Private\TankBarrel.cpp</string>
+    </extensions>
+    <highlightIndex>5</highlightIndex>
   </TabHighlightState>
 </ArrayOfTabHighlightState>
