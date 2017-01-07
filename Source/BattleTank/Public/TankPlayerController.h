@@ -23,4 +23,8 @@ public:
 	
 	
 	void AimTowardsCrosshair();
+
+private:
+	//Return an OUT parameter, true if ray hit landscape
+	bool GetSightRayHitLocation(FVector& HitLocation) const;
 };

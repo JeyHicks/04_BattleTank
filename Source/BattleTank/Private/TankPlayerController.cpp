@@ -37,10 +37,22 @@ void ATankPlayerController::AimTowardsCrosshair()
 {
 	if (!GetControlledTank()) { return; }
 
-	//line trace through crosshair
+	FVector HitLocation; //Out parameter
+	if (GetSightRayHitLocation(HitLocation)) // Has Side Effect, is going to ray trace.
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Hit Location: %s"), *HitLocation.ToString());
 
-	//if trace hits something
+		//line trace through crosshair
+
+		//if trace hits something
 		//aim at hit location
+	}
 
 }
 
+//true if hits landscape
+bool ATankPlayerController::GetSightRayHitLocation(FVector& HitLocation) const
+{
+	HitLocation = FVector(1.0);
+	return true;
+}
