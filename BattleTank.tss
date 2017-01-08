@@ -37,5 +37,11 @@
     <ArrayOfString>
       <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Private\TankTurret.cpp</string>
     </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Public\Projectile.h</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Private\Projectile.cpp</string>
+    </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>
