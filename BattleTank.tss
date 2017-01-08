@@ -2,40 +2,10 @@
 <ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ArrayOfArrayOfString>
     <ArrayOfString>
-      <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Public\TankAIController.h</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Private\TankAIController.cpp</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Public\TankPlayerController.h</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Private\TankPlayerController.cpp</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Public\TankAimingComponent.h</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Private\TankAimingComponent.cpp</string>
-    </ArrayOfString>
-    <ArrayOfString>
       <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Public\Tank.h</string>
     </ArrayOfString>
     <ArrayOfString>
       <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Private\Tank.cpp</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Public\TankBarrel.h</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Private\TankBarrel.cpp</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Public\TankTurret.h</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Private\TankTurret.cpp</string>
     </ArrayOfString>
     <ArrayOfString>
       <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Public\Projectile.h</string>
