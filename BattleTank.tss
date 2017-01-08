@@ -25,5 +25,11 @@
     <ArrayOfString>
       <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Private\Tank.cpp</string>
     </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Public\TankBarrel.h</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Private\TankBarrel.cpp</string>
+    </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>
