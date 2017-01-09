@@ -18,13 +18,15 @@ public:
 	void Elevate(float RelativeSpeed);
 
 private:
-	UPROPERTY(EditAnywhere, Category = BarrelSetup)
+	UPROPERTY(EditDefaultsOnly, Category = BarrelSetup)
 		float MaxDegreesPerSecond = 10; 
 	
-	UPROPERTY(EditAnywhere, Category = BarrelSetup)
+	UPROPERTY(EditDefaultsOnly, Category = BarrelSetup)
 		float MaxElevationDegrees = 20;
 
-	UPROPERTY(EditAnywhere, Category = BarrelSetup)
+	UPROPERTY(EditDefaultsOnly, Category = BarrelSetup)
 		float MinElevationDegrees = 0; //sensible default. Would like it to go to -10 just while facing forwards.
+
+
 
 };
