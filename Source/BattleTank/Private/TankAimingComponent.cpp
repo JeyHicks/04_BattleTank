@@ -33,6 +33,8 @@ void UTankAimingComponent::AimAt(FVector HitLocation, float LaunchSpeed)
 	if (!Barrel) { return; }
 
 	FVector OutLaunchVelocity;
+	TArray< AActor *> DummyArray;
+	FCollisionResponseParams DummyCollResp;
 	FVector StartLocation = Barrel->GetSocketLocation(FName("Projectile"));
 	bool bHaveAimSolution = UGameplayStatics::SuggestProjectileVelocity
 	(
@@ -44,7 +46,10 @@ void UTankAimingComponent::AimAt(FVector HitLocation, float LaunchSpeed)
 		false,
 		0,
 		0,
-		ESuggestProjVelocityTraceOption::DoNotTrace // Paramater must be present to prevent bug
+		ESuggestProjVelocityTraceOption::DoNotTrace, // Paramater must be present to prevent bug
+		DummyCollResp,
+		DummyArray,
+		true
 													
 	);
 
