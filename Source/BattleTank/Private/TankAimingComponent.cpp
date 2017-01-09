@@ -49,7 +49,7 @@ void UTankAimingComponent::AimAt(FVector HitLocation, float LaunchSpeed)
 		ESuggestProjVelocityTraceOption::DoNotTrace, // Paramater must be present to prevent bug
 		DummyCollResp,
 		DummyArray,
-		true
+		false // debug draw
 													
 	);
 
