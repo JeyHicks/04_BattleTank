@@ -23,22 +23,22 @@
       <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Public\TankBarrel.h</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Private\TankAimingComponent.cpp</string>
+      <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Public\TankMovementComponent.h</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Public\TankAimingComponent.h</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Private\TankAIController.cpp</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Public\TankAIController.h</string>
+      <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Private\TankMovementComponent.cpp</string>
     </ArrayOfString>
     <ArrayOfString>
       <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Public\TankTrack.h</string>
     </ArrayOfString>
     <ArrayOfString>
       <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Private\TankTrack.cpp</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Public\TankAimingComponent.h</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Unreal Projects\BattleTank\Source\BattleTank\Private\TankAimingComponent.cpp</string>
     </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>
