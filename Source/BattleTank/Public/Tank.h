@@ -2,12 +2,13 @@
 
 #pragma once
 
-#include "TankAimingComponent.h"
 #include "GameFramework/Pawn.h"
 #include "Tank.generated.h" //always put new includes above this
 
 //Forward Declarations
-class UTankBarrel; 
+class UTankMovementComponent;
+class UTankBarrel;
+class UTankAimingComponent;
 class UTankTurret; 
 class AProjectile;
 
@@ -32,8 +33,11 @@ public:
 	void AimAt(FVector HitLocation);
 
 protected:
+
 	UTankAimingComponent* TankAimingComponent = nullptr;
 
+	UPROPERTY(BlueprintReadOnly) // i can now reference the UTankMovementComponent in blueprint
+	UTankMovementComponent* TankMovementComponent = nullptr;
 private:
 	// Sets default values for this pawn's properties
 	ATank();
