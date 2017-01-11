@@ -3,13 +3,12 @@
 #pragma once
 
 #include "GameFramework/Pawn.h"
-#include "Tank.generated.h" //always put new includes above this
+#include "Tank.generated.h" // Put new includes above
 
-//Forward Declarations
-class UTankMovementComponent;
+// Forward declarations
 class UTankBarrel;
 class UTankAimingComponent;
-class UTankTurret; 
+class UTankMovementComponent;
 class AProjectile;
 
 UCLASS()
@@ -18,26 +17,23 @@ class BATTLETANK_API ATank : public APawn
 	GENERATED_BODY()
 
 public:
-	
-	//Set true for artillery
+	UFUNCTION(BlueprintCallable, Category = Setup)
+	void SetBarrelReference(UTankBarrel* BarrelToSet);
 
 	UFUNCTION(BlueprintCallable, Category = Setup)
-		void SetBarrelReference(UTankBarrel* BarrelToSet);
-
-	UFUNCTION(BlueprintCallable, Category = Setup)
-		void SetTurretReference(UTankTurret* TurretToSet);
-
-	UFUNCTION(BlueprintCallable, Category = Firing)
-		void Fire();
+	void SetTurretReference(UTankTurret* TurretToSet);
 
 	void AimAt(FVector HitLocation);
 
-protected:
+	UFUNCTION(BlueprintCallable, Category = Firing)
+	void Fire();
 
+protected:
 	UTankAimingComponent* TankAimingComponent = nullptr;
 
-	UPROPERTY(BlueprintReadOnly) // i can now reference the UTankMovementComponent in blueprint
+	UPROPERTY(BlueprintReadOnly)
 	UTankMovementComponent* TankMovementComponent = nullptr;
+
 private:
 	// Sets default values for this pawn's properties
 	ATank();
@@ -47,20 +43,18 @@ private:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
+	
+	UPROPERTY(EditDefaultsOnly, Category = Setup)
+	TSubclassOf<AProjectile> ProjectileBlueprint;
 
 	UPROPERTY(EditDefaultsOnly, Category = Firing)
-		float LaunchSpeed = 8000; // sensible default value of 1000m/s
-
-	UPROPERTY(EditDefaultsOnly, Category = Setup)
-		TSubclassOf<AProjectile> ProjectileBlueprint;
-	
-	// local barrel reference for spawning projectile.
-	UTankBarrel* Barrel = nullptr;
+	float LaunchSpeed = 4000;
 
 	UPROPERTY(EditDefaultsOnly, Category = Firing)
 	float ReloadTimeInSeconds = 3;
-
-
-
+	
+	// Local barrel reference for spawning projectile
+	UTankBarrel* Barrel = nullptr;
+	
 	double LastFireTime = 0;
 };

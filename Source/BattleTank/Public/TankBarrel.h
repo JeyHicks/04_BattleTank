@@ -6,27 +6,24 @@
 #include "TankBarrel.generated.h"
 
 /**
- * Holds Parameters for barrels properties and elevate method
+ * 
  */
-UCLASS(meta = (BlueprintSpawnableComponent), hidecategories = ("Collision")) // Makes it so you can add this via blueprint and hides collsion properties.
+UCLASS(meta = (BlueprintSpawnableComponent)) //, hidecategories = ("Collision"))
 class BATTLETANK_API UTankBarrel : public UStaticMeshComponent
 {
 	GENERATED_BODY()
 	
 public:
-	// -1 is max downward speed and +1 is max upward speed.
+	// -1 is max downward speed, and +1 is max up movement
 	void Elevate(float RelativeSpeed);
 
 private:
-	UPROPERTY(EditDefaultsOnly, Category = BarrelSetup)
-		float MaxDegreesPerSecond = 10; 
+	UPROPERTY(EditDefaultsOnly, Category = Setup)
+	float MaxDegreesPerSecond = 10;
 	
-	UPROPERTY(EditDefaultsOnly, Category = BarrelSetup)
-		float MaxElevationDegrees = 20;
+	UPROPERTY(EditDefaultsOnly, Category = Setup)
+	float MaxElevationDegrees = 40;
 
-	UPROPERTY(EditDefaultsOnly, Category = BarrelSetup)
-		float MinElevationDegrees = 0; //sensible default. Would like it to go to -10 just while facing forwards.
-
-
-
+	UPROPERTY(EditDefaultsOnly, Category = Setup)
+	float MinElevationDegrees = 0;
 };

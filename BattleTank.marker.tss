@@ -12,4 +12,28 @@
     </extensions>
     <highlightIndex>3</highlightIndex>
   </TabHighlightState>
+  <TabHighlightState>
+    <extensions>
+      <string>Source\BattleTank\Public\TankMovementComponent.h</string>
+    </extensions>
+    <highlightIndex>2</highlightIndex>
+  </TabHighlightState>
+  <TabHighlightState>
+    <extensions>
+      <string>Source\BattleTank\Private\TankMovementComponent.cpp</string>
+    </extensions>
+    <highlightIndex>2</highlightIndex>
+  </TabHighlightState>
+  <TabHighlightState>
+    <extensions>
+      <string>Source\BattleTank\Public\TankAimingComponent.h</string>
+    </extensions>
+    <highlightIndex>4</highlightIndex>
+  </TabHighlightState>
+  <TabHighlightState>
+    <extensions>
+      <string>Source\BattleTank\Private\TankAimingComponent.cpp</string>
+    </extensions>
+    <highlightIndex>4</highlightIndex>
+  </TabHighlightState>
 </ArrayOfTabHighlightState>
